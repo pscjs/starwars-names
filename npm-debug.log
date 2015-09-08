@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json starwars-name@1.0.0 No description
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\NodeApps\\starwars-name', [ 'express', 'zeftest' ] ]
+8 info preinstall starwars-name@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping express@^4.13.3 C:\NodeApps\starwars-name
+11 verbose cache add [ 'zeftest@git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git',
+11 verbose cache add   null ]
+12 verbose cache add name=undefined spec="zeftest@git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git" args=["zeftest@git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'zeftest@git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git',
+13 verbose parsed url   path: 'zeftest@git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git',
+13 verbose parsed url   href: 'zeftest@git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git' }
+14 verbose cache add name="zeftest" spec="git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git" args=["zeftest","git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git"]
+15 verbose parsed url { protocol: 'git+https:',
+15 verbose parsed url   slashes: true,
+15 verbose parsed url   auth: '6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic',
+15 verbose parsed url   host: 'github.com',
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: 'github.com',
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '/pscjs/zeftest.git',
+15 verbose parsed url   path: '/pscjs/zeftest.git',
+15 verbose parsed url   href: 'git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git' }
+16 silly lockFile 1cba76cd-sic-github-com-pscjs-zeftest-git https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git
+17 verbose lock https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git C:\Users\vuser\AppData\Roaming\npm-cache\1cba76cd-sic-github-com-pscjs-zeftest-git.lock
+18 verbose addRemoteGit [ 'https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git',
+18 verbose addRemoteGit   'master' ]
+19 verbose git clone https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git Cloning into bare repository 'C:\Users\vuser\AppData\Roaming\npm-cache\_git-remotes\https-6aae374b4959e240eefa8a795ec50079993a4058-x-oauth-basic-github-com-pscjs-zeftest-git-1cba76cd'...
+20 verbose git fetch -a origin (https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git)
+21 silly verifyOwnership skipping for windows
+22 verbose git rev-list -n1 master 48cd1324d6d8ab0448a67bb1ff9f2298c7308988
+23 verbose resolved git url git+https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git#48cd1324d6d8ab0448a67bb1ff9f2298c7308988
+24 verbose tar unpack C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz
+25 silly lockFile 93acd951-0-540823821676895-tmp-tgz-unpack tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz-unpack
+26 verbose lock tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz-unpack C:\Users\vuser\AppData\Roaming\npm-cache\93acd951-0-540823821676895-tmp-tgz-unpack.lock
+27 silly lockFile 97f7adb1-241618-0-540823821676895-tmp-tgz tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz
+28 verbose lock tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz C:\Users\vuser\AppData\Roaming\npm-cache\97f7adb1-241618-0-540823821676895-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '777', '666' ]
+30 silly gunzTarPerm extractEntry
+31 silly gunzTarPerm modified mode [ '', 509, 511 ]
+32 silly gunzTarPerm extractEntry .gitattributes
+33 silly gunzTarPerm modified mode [ '.gitattributes', 436, 438 ]
+34 silly gunzTarPerm extractEntry .gitignore
+35 silly gunzTarPerm modified mode [ '.gitignore', 436, 438 ]
+36 silly lockFile 93acd951-0-540823821676895-tmp-tgz-unpack tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz-unpack
+37 silly lockFile 93acd951-0-540823821676895-tmp-tgz-unpack tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz-unpack
+38 silly lockFile 97f7adb1-241618-0-540823821676895-tmp-tgz tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz
+39 silly lockFile 97f7adb1-241618-0-540823821676895-tmp-tgz tar://C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz
+40 silly lockFile 1cba76cd-sic-github-com-pscjs-zeftest-git https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git
+41 silly lockFile 1cba76cd-sic-github-com-pscjs-zeftest-git https://6aae374b4959e240eefa8a795ec50079993a4058:x-oauth-basic@github.com/pscjs/zeftest.git
+42 error Error: ENOENT, open 'C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz-unpack\package.json'
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+46 error cwd C:\NodeApps\starwars-name
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 error path C:\Users\vuser\AppData\Local\Temp\npm-5972-2L-lXxtj\1441707241618-0.540823821676895\tmp.tgz-unpack\package.json
+50 error code ENOENT
+51 error errno 34
+52 verbose exit [ 34, true ]
